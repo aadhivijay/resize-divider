@@ -1,0 +1,30 @@
+.resize-divider {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.content-left {
+    border: 1px solid red;
+    order: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-right {
+    border: 1px solid red;
+    order: 3;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dragger {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    order: 2;
+    cursor: col-resize;
+    user-select: none;
+    justify-content: center;
+}
